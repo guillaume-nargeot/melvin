@@ -37,4 +37,4 @@ script:
    fi
 
 after_script:
-  - hpc-coveralls io-machines
+  - hpc-coveralls --exclude-dir=tests io-machines
